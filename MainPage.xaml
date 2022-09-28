@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="NavigationViewBitmapIconScaleBug.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:NavigationViewBitmapIconScaleBug"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <muxc:NavigationView x:Name="nvSample">
+        <muxc:NavigationView.MenuItems>
+            <muxc:NavigationViewItem Content="Font Icon">
+                <muxc:NavigationViewItem.Icon>
+                    <IconSourceElement IconSource="{x:Bind FontIconSource, Mode=OneWay}" />
+                </muxc:NavigationViewItem.Icon>
+            </muxc:NavigationViewItem>
+            <muxc:NavigationViewItem Content="Bitmap Icon">
+                <muxc:NavigationViewItem.Icon>
+                    <IconSourceElement IconSource="{x:Bind BitmapIconSource, Mode=OneWay}" />
+                </muxc:NavigationViewItem.Icon>
+            </muxc:NavigationViewItem>
+        </muxc:NavigationView.MenuItems>
+    </muxc:NavigationView>
+</Page>
