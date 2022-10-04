@@ -1,8 +1,8 @@
 # NavigationViewBitmapIconScaleBug
 
 ## Steps
-- Change resolution on secondary monitor (e.g., 150%).
-- Open the app on that specific secondary monitor.
+1- Change resolution on secondary monitor (e.g., 150%).
+2- Open the app on that specific secondary monitor.
 
 **Expected results**: All NavigationView icons display correctly.
 
