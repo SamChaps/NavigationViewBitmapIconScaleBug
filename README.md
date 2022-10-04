@@ -6,7 +6,7 @@
 
 **Expected results**: All NavigationView icons display correctly.
 Main monitor 200% scale:
-https://user-images.githubusercontent.com/16784153/193873987-1b283a02-a599-49f9-8a3a-7b3229f51817.mp4
+![image](https://user-images.githubusercontent.com/16784153/193874819-8e4b6d4f-b371-404a-992c-49abb2f20323.png)
 
 Secondary monitor 150% scale:
 **Observed results**: All NavigationView bitmap icons are not visible.
